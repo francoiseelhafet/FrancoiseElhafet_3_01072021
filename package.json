@@ -1,0 +1,26 @@
+{
+  "name": "oc_deveoppeur_web_p_3_ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet 3 OpenClassroom parcours développeur web. Intégrer puis dynamiser une page web avec des animations css en utilisant le préprocesseur Sass ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoiseelhafet/FrancoiseElhafet_3_01072021.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "FrancoiseElhafet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francoiseelhafet/FrancoiseElhafet_3_01072021/issues"
+  },
+  "homepage": "https://github.com/francoiseelhafet/FrancoiseElhafet_3_01072021#readme",
+  "dependencies": {
+    "g": "^2.0.1",
+    "sass": "^1.44.0"
+  }
+}
