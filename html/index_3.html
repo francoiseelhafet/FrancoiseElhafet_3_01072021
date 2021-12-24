@@ -6,11 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="site d'hebergements et d'activitées à marseille">
-    <link rel="stylesheet" type="text/css" href="#"/>
-    <link rel="stylesheet" media="screen" href="#"/>
-    <link rel="stylesheet" media="screen" href="#"/>
-    <link rel="stylesheet" media="screen" href="#"/>
-
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap" rel="stylesheet">
@@ -21,18 +18,18 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="head">
         <a href="./index.html">
-            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-left head__icon"></i>
         </a>
-        <img src="../images/logo/ohmyfood.png" alt="">
+        <img src="../images/logo/ohmyfood.png" alt="logo ohmyfood" class="head__img">
     </header>
 
     <main>
-        <section class="box__heading__meal">
-            <div class="box__heading-heart">
-                <a href="#">
-                    <img src="../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="photo de plats">
+        <section class="heading__box">
+            <div class="heading__card">
+                <a href="#" class="heading__link" >
+                    <img src="../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="photo de plats" class="heading__img">
                     <div>
                         <h1 class="heading">La palette du goût</h1>
                         <i class="far fa-heart"></i>
@@ -177,19 +174,23 @@
         </div>
     </main>
      
-    <footer>
-        <img src="../images/logo/ohmyfood@2x.svg" alt="petit logo ohmyfood">
+    <footer >
+        <nav class="nav__box">
+            <h4 class="nav__heading">ohmyfood</h4> 
 
-        <div class="box__formality-option">
-            <i class="fas fa-utensils formality__item"></i>
-            <p class="formality__option">Proposer un restaurant</p>
-        </div>
-        <div class="box__formality-option">
-            <i class="fas fa-hands-helping formality__item"></i>
-            <p class="formality__option">Devenir partenaire</p>
-        </div>
-        <p class="formality">Mentions légales</p>
-        <p class="formality">Contact</p>
+            <div class="nav__formality">
+                <i class="fas fa-utensils nav__icon"></i>
+                <span class="nav__option">Proposer un restaurant</span>
+            </div>
+            <div class="nav__formality">
+                <i class="fas fa-hands-helping nav__icon"></i>
+                <span class="nav__option">Devenir partenaire</span>             
+             </div>                
+             <div>
+            <span class="nav__option">Mentions légales</span>
+            </div>
+            <span class="nav__option">Contact</span>
+        </nav>
     </footer>
 
 </body>

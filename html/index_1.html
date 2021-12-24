@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="site d'hebergements et d'activitées à marseille">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,178 +18,202 @@
 </head>
 
 <body>
-    <header class="box__header">
-        <a href="./index.html">
-            <i class="fas fa-arrow-left box__header__arrow"></i>
-        </a>
-        <img src="../images/logo/ohmyfood.png" alt="logo ohmyfood" class="header__img">
-    </header>
+    <!----------------------entête-(logo)(icon-flèche)---------------------->
 
-    <main class="box">
-        <section class="box__heading">
-            <div class="box__heading__heart">
-                <a href="#">
-                    <img src="../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="photo de plats">
-                    <div>
-                        <h1 class="box__title">À la Française </h1>
-                        <i class="far fa-heart"></i>
-                    </div>
+    <header class="head">
+        <a href="./index.html">
+            <i class="fas fa-arrow-left head__icon"></i>
+        </a>
+        <img src="../images/logo/ohmyfood.png" alt="logo ohmyfood" class="head__img">
+    </header>
+    <!----------------------corp de page---------------------->
+
+    <main>
+
+        <section class="heading">
+    <!----------------------photo---------------------->
+            <div class="heading__picture">
+                <a href="#" class="heading__link">
+                    <img src="../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="photo de plats" class="heading__img">
                 </a>
             </div>
         </section>
-  
-        <div class="box__content">
-            <section class="box__content__entree">
-                <h2 class="meal__heading">ENTRÉES</h2>
-                <a href="#">
-                    <div class="box__meal-choice">
-
-                        <div class="box__meal-choice-items">
-                            <h3 class="meal__choice-heading">Tartare de poulpe acidule</h3>
-                            <p class="meal__choice-item">Aux zests d'orange</p>
-                        </div>
-
-                        <div class="box__meal-price">
-                            <p class="meal__price">25</p>
-                            <i class="fas fa-euro-sign meal__price-item"></i>
-                        </div>
-                    </div> 
-
-                        <div class="box__meal-choice">
-                            <div class="box__meal-choice-items">
-                                <h3 class="meal__choice-heading">Velouté de légumes d'antan</h3>
-                                <p class="meal__choice-item">Carotte, panais, topinambour</p>
-                            </div>
-
-                            <div class="box__meal-price">
-                                <p class="meal__price">35</p>
-                                <i class="fas fa-euro-sign meal__price-"></i>
-                            </div>
-                        </div>  
-                        <div class="box__meal-choice">
-                            <div class="meal__choice-items">
-                                <h3 class="meal__choice-heading">Soupe à l'oignon</h3>
-                                <p class="meal__choice-item">Revisitée</p>
-                            </div>
-
-                            <div class="box__meal-price">
-                                <p class="meal__price">20</p>
-                                <i class="fas fa-euro-sign meal__price-"></i>
-                            </div>
-                            <div>
-                                <i class="far fa-check-circle"></i>
-                                <i class="far fa-hand-pointer"></i>
-                            </div>
-                        </div> 
-                 </a>
-            </section>
-   
-            <section class="box__content__plats">
+    <!-------------restaurant---------------->
+         <section class="heading__main">       
+            
+            <div class="heading__head">
+                    <div class="heading__header">
+                        <h1 class="heading__title">À la Française </h1>
+                        <i class="far fa-heart heading__icon"></i>
+                    </div>
                 
-                    <h2 class="meal__heading">PLATS</h2>
+            
+                    <!-------------section entrée---------------->
+
+           
+                <div class="entree">
+                    <section class="entree__box">
+                    <h2 class="meal__heading">ENTRÉES</h2>
                     <a href="#">
-                    <div class="box__meal-choice">
+                        <div class="entree__container box__food">
+    <!-------------entree---------------->
 
-                        <div class="box__meal-choice-items">
-                            <h3 class="meal__choice-heading">Coquilles Saint-Jacques</h3>
-                            <p class="meal__choice-item">Accompagnées d'une purée de panais</p>
-                        </div>
-
-                        <div class="box__meal__price">
-                            <p class="meal__price">40</p>
-                            <i class="fas fa-euro-sign meal__price-item"></i>
-                        </div>
-                    </div> 
-
-                        <div class="box__meal-choice">
-                            <div class="box__meal-choice-items">
-                                <h3 class="meal__choice-heading">Magret de canard</h3>
-                                <p class="meal__choice-item">Et parmentier de pommes de terres</p>
+                            <div class="entree__items">
+                                <h3 class="content__choice food__heading">Tartare de poulpe acidule</h3>
+                                <p class="content__item food__item">Aux zests d'orange</p>
                             </div>
+    <!-------------prix---------------->
 
                             <div class="box__meal-price">
-                                <p class="meal__price">35</p>
-                                <i class="fas fa-euro-sign meal__price-"></i>
+                                <p class="meal__price">25</p>
+                                <i class="fas fa-euro-sign meal__price-item"></i>
                             </div>
-                        </div>  
-                        <div class="box__meal-choice">
-                            <div class="meal__choice-items">
-                                <h3 class="meal__choice-heading">Pigeonneau d'Ille-et-vilaine</h3>
-                                <p class="meal__choice-item">Sur son lit de gnocchis aux légumes</p>
-                            </div>
-
-                            <div class="box__meal-price">
-                                <p class="meal__price">44</p>
-                                <i class="fas fa-euro-sign meal__price-"></i>
-                            </div>  
                         </div> 
-                 </a>
+    <!-------------entree---------------->
+
+                            <div class="box__meal-choice box__food">
+                                <div class="box__meal-choice-items">
+                                    <h3 class="meal__choice-heading food__heading">Velouté de légumes d'antan</h3>
+                                    <p class="meal__choice-item food__item">Carotte, panais, topinambour</p>
+                                </div>
+    <!-------------prix---------------->
+
+                                <div class="box__meal-price">
+                                    <p class="meal__price">35</p>
+                                    <i class="fas fa-euro-sign meal__price-"></i>
+                                </div>
+                            </div>  
+                            <div class="box__meal-choice box__food">
+                                <div class="meal__choice-items">
+                                    <h3 class="meal__choice-heading food__heading">Soupe à l'oignon</h3>
+                                    <p class="meal__choice-item food__item">Revisitée</p>
+                                </div>
+
+                                <div class="box__meal-price">
+                                    <p class="meal__price">20</p>
+                                    <i class="fas fa-euro-sign meal__price-"></i>
+                                </div>
+                                <div>
+                                    <i class="far fa-check-circle"></i>
+                                    <i class="far fa-hand-pointer"></i>
+                                </div>
+                            </div> 
+                    </a>
                 </section>
+        <!-------------plat---------------->
 
-            <article class="box__content__dessert">
-                    <h2 class="meal__heading">DESSERTS</h2>
-                    <a href="#">
-                    <div class="box__meal-choice">
+                <section class="box__content__plats">
+                    
+                        <h2 class="meal__heading">PLATS</h2>
+                        <a href="#">
+                        <div class="box__meal-choice box__food">
 
-                        <div class="box__meal-choice-items">
-                            <h3 class="meal__choice-heading">Pétales de violettes glacés</h3>
-                            <p class="meal__choice-item">Et purée de noisettes</p>
-                        </div>
-
-                        <div class="box__meal-price">
-                            <p class="meal__price">18</p>
-                            <i class="fas fa-euro-sign meal__price-item"></i>
-                        </div>
-                    </div> 
-
-                        <div class="box__meal-choice">
-                            <div class="box__meal-choice-items">
-                                <h3 class="meal__choice-title">Fondant au chocolat</h3>
-                                <p class="meal__choice-item">Revisité</p>
+                            <div class="box__meal-choice">
+                                <h3 class="meal__choice-heading food__heading">Coquilles Saint-Jacques</h3>
+                                <p class="meal__choice-item food__item">Accompagnées d'une purée de panais</p>
                             </div>
 
                             <div class="box__meal-price">
-                                <p class="meal__price">22</p>
-                                <i class="fas fa-euro-sign meal__price-"></i>
+                                <p class="meal__price">40</p>
+                                <i class="fas fa-euro-sign meal__price-item"></i>
                             </div>
-                        </div>  
-                        <div class="box__meal-choice">
-                            <div class="meal__choice-items">
-                                <h3 class="meal__choice-heading">Millefeuille croustillant</h3>
-                                <p class="meal__choice-item">Myrtilles et pâte d'amande</p>
-                            </div>
-
-                            <div class="box__meal-price">
-                                <p class="meal__price">23</p>
-                                <i class="fas fa-euro-sign meal__price-"></i>
-                            </div>  
                         </div> 
-                 </a>
-            </article>
-        </div>
 
-        <div class="box__cta">
+                            <div class="box__meal-choice box__food">
+                                <div class="box__meal-choice-items">
+                                    <h3 class="meal__choice-heading food__heading">Magret de canard</h3>
+                                    <p class="meal__choice-item food__item">Et parmentier de pommes de terres</p>
+                                </div>
 
-            <button>Commander</button>
+                                <div class="box__meal-price">
+                                    <p class="meal__price">35</p>
+                                    <i class="fas fa-euro-sign meal__price-"></i>
+                                </div>
+                            </div>  
+                            <div class="box__meal-choice box__food">
+                                <div class="meal__choice-items">
+                                    <h3 class="meal__choice-heading food__heading">Pigeonneau d'Ille-et-vilaine</h3>
+                                    <p class="meal__choice-item food__item">Sur son lit de gnocchis aux légumes</p>
+                                </div>
 
-        </div>
+                                <div class="box__meal-price">
+                                    <p class="meal__price">44</p>
+                                    <i class="fas fa-euro-sign meal__price-"></i>
+                                </div>  
+                            </div> 
+                    </a>
+                    </section>
+    <!-------------dessert---------------->
+
+                <article class="box__content__dessert">
+                        <h2 class="meal__heading ">DESSERTS</h2>
+                        <a href="#">
+                        <div class="box__meal-choice box__food">
+
+                            <div class="box__meal-choice-items">
+                                <h3 class="meal__choice-heading food__heading">Pétales de violettes glacés</h3>
+                                <p class="meal__choice-item food__item">Et purée de noisettes</p>
+                            </div>
+
+                            <div class="box__meal-price">
+                                <p class="meal__price">18</p>
+                                <i class="fas fa-euro-sign meal__price-item"></i>
+                            </div>
+                        </div> 
+
+                            <div class="box__meal-choice box__food">
+                                <div class="box__meal-choice-items">
+                                    <h3 class="meal__choice-title food__heading">Fondant au chocolat</h3>
+                                    <p class="meal__choice-item food__item">Revisité</p>
+                                </div>
+
+                                <div class="box__meal-price">
+                                    <p class="meal__price">22</p>
+                                    <i class="fas fa-euro-sign meal__price-"></i>
+                                </div>
+                            </div>  
+                            <div class="box__meal-choice box__food">
+                                <div class="meal__choice-items">
+                                    <h3 class="meal__choice-heading food__heading">Millefeuille croustillant</h3>
+                                    <p class="meal__choice-item food__item">Myrtilles et pâte d'amande</p>
+                                </div>
+
+                                <div class="box__meal-price">
+                                    <p class="meal__price">23</p>
+                                    <i class="fas fa-euro-sign meal__price-"></i>
+                                </div>  
+                            </div> 
+                    </a>
+                </article>
+            </div>
+    <!-------------bouton---------------->
+
+                    <div class="box__cta">
+
+                        <button class=btn__small>Commander</button>
+
+                    </div>
+                </div>
     </main>
-     
-    <footer>
-        <nav>
-            <img src="../images/logo/ohmyfood@2x.svg" alt="petit logo ohmyfood">
+         <!-------------pied de page---------------->
 
-            <div class="box__formality-option">
-                <i class="fas fa-utensils formality__item"></i>
-                <p class="formality__option">Proposer un restaurant</p>
+    <footer >
+        <nav class="nav__box">
+            <h4 class="nav__heading">ohmyfood</h4> 
+
+            <div class="nav__formality">
+                <i class="fas fa-utensils nav__icon"></i>
+                <span class="nav__option">Proposer un restaurant</span>
             </div>
-            <div class="box__formality-option">
-                <i class="fas fa-hands-helping formality__item"></i>
-                <p class="formality__option">Devenir partenaire</p>
+            <div class="nav__formality">
+                <i class="fas fa-hands-helping nav__icon"></i>
+                <span class="nav__option">Devenir partenaire</span>             
+             </div>                
+             <div>
+            <span class="nav__option">Mentions légales</span>
             </div>
-            <p class="formality">Mentions légales</p>
-            <p class="formality">Contact</p>
-            </nav>
+            <span class="nav__option">Contact</span>
+        </nav>
     </footer>
 
 </body>
